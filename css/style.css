@@ -7276,11 +7276,6 @@ body {
   color: gray;
   background: url(../images/bg_4.jpg) no-repeat fixed;
   background-size: cover; }
-  body.menu-show {
-    overflow: hidden;
-    position: fixed;
-    height: 100%;
-    width: 100%; }
 
 span {
   color: #bfbfbf; }
