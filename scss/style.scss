@@ -40,12 +40,6 @@ body {
 	color: lighten($black,50%);
 	background: url(../images/bg_4.jpg) no-repeat fixed;
 	background-size: cover;
-	&.menu-show {
-		overflow: hidden;
-		position: fixed;
-		height: 100%;
-		width: 100%;
-	}
 }
 span{
 	color: lighten($black,75%);
@@ -1128,6 +1122,11 @@ textarea.form-control {
 .ftco-animate {
 	opacity: 0;
 	visibility: hidden;
+}
+
+.home-slider .slider-item img {
+	opacity: 1;
+	visibility: visible;
 }
 
 .bg-primary {
