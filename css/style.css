@@ -8973,3 +8973,18 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    /* Corrección de ancho móvil */
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+}
+
+img, iframe {
+    max-width: 100% !important;
+}
+
+.owl-carousel, .owl-stage-outer, .owl-stage, .owl-item {
+    max-width: 100% !important;
+}
